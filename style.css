@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.head-text{
+    background-color: black;
+    color: white;
+}
+header{
+    position: relative;
+    width: 25%;
+    float: left;
+}
+.navbar{
+     width: 70px;
+    
+    background-color: black;
+    padding: 10px 0px;
+    position: absolute;
+    top: 175px;
+    border-radius: 15px;
+    left: -25px;
+}
+.navbar nav{
+    margin: 0px 0px 0px 20px;
+}
+.navbar ul{
+   
+}
+.navbar ul li{
+width: 100%;
+
+}
+.navbar ul li i{
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+}
+ .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    /* width: 109px; */
+    display: none;
+
+    
+} 
+
+.navbar ul li:nth-child(2) a{
+    padding-right: 50px;
+   
+
+}
+
+.navbar ul li:nth-child(4) a{
+    padding-right: 39px;
+}
+.navbar ul li:nth-child(1) a{
+    padding-right: 40px;
+}
+.navbar ul li:nth-child(3) a{
+    padding-right: 34px;
+}
+.navbar ul li a:hover{
+   
+    background-color: green;
+    color: white;
+    
+   
+}
+
+.navbar:hover{
+    width: 75%;
+    display: block;
+
+}
+
+ .navbar:hover a{
+    display: inline-block;
+} 
+
+
+
+main{
+    width: 75%;
+    float: right;
+}
+.text{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top: 280px;
+}
+
+.text h1{
+    font-size: 50px;
+    float: right;
+
+}
+.text h1 .drama{
+    color: green;
+}
+
+.text p{
+    font-size: 25px;
+    float: right;
+}
+.img{
+    width: 50%;
+    float: right;
+}
+.img img{
+    /* width: 100%; */
+}
+
+footer{
+    height: 80px;
+    
+    position: relative;
+    bottom: 0px;
+    top: 575px;
+}
+footer .btn {
+  position: relative;
+  top: 28%;
+  left: 42%;
+}
+
+.btn .btn-1{
+    margin: 0px 10px;
+    border-radius: 50%;
+    border: none;
+}
+.btn .btn-2{
+    
+    margin: 0px 10px;
+    border-radius: 50%;
+    border: none;
+}
+.btn .btn-3{
+    margin: 0px 10px;
+    border-radius: 50%;
+    border: none;
+}
+footer .btn button i{
+   
+    color: blue;
+    margin: 10px;
+   
+}
+footer:hover{
+    background-color: black;
+}
+footer .btn button:hover{
+    background-color: rgb(185, 223, 204);
+    cursor: pointer;
+  
+}
